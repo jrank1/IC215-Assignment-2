@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Arial Narrow', Candara, sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.form-box {
+ margin: 2em auto;
+ width: 22em; 
+ height: auto; 
+ border-radius: 0.5em; 
+ background-color: #ebebeb; 
+ box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+ border: solid 1px #cbc9c9;
+}
+
+.hidden{
+    margin: 2em auto;
+    width: 22em; 
+    height: auto; 
+    border-radius: 0.5em; 
+    background-color: #ebebeb; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px #cbc9c9;
+    display: none;
+}
+
+.hidden p{
+    color: #4c4c4c;
+    margin: 1em;
+    font-weight: 200;
+}
+
+.form-box form {
+ margin: 0 2em;
+}
+
+.form-box h1 {
+ font-size: 2rem;
+ font-weight: 500;
+ color: #4c4c4c;
+ text-align: center;
+ margin: 0.75em;
+}
+
+
+.form-box hr {
+ color: #a9a9a9;
+ opacity: 0.3;
+ width: 80%;
+}
+
+input {
+ width: 15em; 
+ height: 2.75em; 
+ border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+ background-color: #fff; 
+ box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+ border: solid 1px #cbc9c9;
+ margin-left: -5px;
+ margin-top: 13px; 
+ padding-left: 10px;
+}
+
+
+label {
+ display: inline-block;
+ width: 2em;
+ background-color: #FF6C3A;
+ padding: 8px 0px 8px 15px;
+ margin-left: 15px;
+ border-radius: 4px 0px 0px 4px;
+ color: white;
+ box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+ border: solid 0px #cbc9c9;
+}
+
+.form-box button {
+ text-decoration: none;
+ display: inline-block;
+ font-size: 1rem;
+ font-weight: bold;
+ color: white;
+ margin: 1em;
+ height: 2.5em;  
+ width: 10em; 
+ border-radius: 5px;
+ background-color: #3b9ad8;  
+ box-shadow: 3px 3px rgba(58,87,175,.75);
+ margin-top: 2em;
+ margin-bottom: 2em;
+}
+
+table input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+div.submitWrapper  {
+    text-align: center;    
+}
+
+/* styles for event listener example */
+
+.panel { width: 200px; height: 200px; background-color: #CFD8DC; font-weight: bold; font-size: 20px;
+   display: flex; align-items: center; justify-content: center; } 
+span#message { font-size: 20px; }

@@ -1,0 +1,49 @@
+<!-- Assignment 2 - Question 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Question 1</title>
+    <link rel="stylesheet" type="text/css" href="q1.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script> 
+</head>
+<body>
+    <main>
+        <div class="form-box">
+            <h1>Registration</h1>
+            <hr>
+          
+            <form method="get" action="#" name="Formq1" id="Formq1" onsubmit="return checkForEmptyFields()">
+              <label class="icon" for="name"><i class="fa fa-user fa-fw"></i></label>
+              <input type="text" name="name" id="name" placeholder="Name" />
+              
+              <label class="icon" for="phone"><i class="fa fa-phone fa-fw"></i></label>
+              <input type="text" name="phone" id="phone" placeholder="Phone"/>   
+              
+              <label class="icon" for="email"><i class="fa fa-envelope fa-fw"></i></label>
+              <input type="text" name="email" id="email" placeholder="Email" />      
+              
+              <label class="icon" for="pass"><i class="fa fa-key fa-fw"></i></label>
+              <input type="password" name="pass" id="pass" placeholder="Password" />       
+                
+              <div class="submitWrapper">
+                <button type="submit" id="submitButton">
+                <i class="fa fa-reply fa-fw"></i> Register</button>
+              </div>
+            </form>
+        </div>
+
+        <div id="errors" class="hidden">
+            <p id="errmessage"></p>
+        </div>
+        
+    </main>
+    
+
+    <script type="text/javascript" language="javascript" src="q1.js"></script>
+</body>
+</html>
